@@ -1,0 +1,36 @@
+Team
+
+{
+  "id": "1",
+  "name": "Team 1",
+  "players": [
+    {
+        "id": "1",
+        "first_name": "Boban",
+        "last_name": "Marjanovic",
+        "number": 1,
+        "is_playing": true,
+        "fouls_first_quarter": 0,
+        "fouls_second_quarter": 0,
+        "fouls_third_quarter": 0,
+        "fouls_fourth_quarter": 0,
+        "fouls_overtime": 0,
+        "points_first_quarter": 0,
+        "points_second_quarter": 0,
+        "points_third_quarter": 0,
+        "points_fourth_quarter": 0,
+        "points_overtime": 0
+    }
+  ],
+  "fouls_first_quarter": 0,
+  "fouls_second_quarter": 0,
+  "fouls_third_quarter": 0,
+  "fouls_fourth_quarter": 0,
+  "fouls_overtime": 0,  
+}
+
+Match
+{
+  "home_team": Team,
+   "away_team": Team
+}
