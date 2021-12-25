@@ -3,6 +3,7 @@ from werkzeug.wrappers import Request, Response
 from werkzeug.utils import secure_filename
 
 home_team_global = ''
+away_team_global = ''
 
 app = Flask(__name__)
 
@@ -17,6 +18,7 @@ def addTeamLogo():
 @app.route('/api/v1.0/teamandplayers', methods = ['POST'])
 def teamandplayers():
     home_team_global = request.get_json()
+    away_team_global = request.get_json()
     
     return jsonify({'msg': 'success'})
 
