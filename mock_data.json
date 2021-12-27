@@ -1,0 +1,20 @@
+{
+    "status": "ready",
+    "period": "1",
+    "home_team": {
+        "id": "6192d4d72c516c73e34637c8",
+        "name": "Domaci",
+        "status": "home",
+        "players": [
+            
+        ]
+    },
+    "away_team": {
+        "id": "6192d4d75ce426e9cee67e9d",
+        "name": "Gosti",
+        "status": "away",
+        "players": [
+            
+        ]
+    }
+}
