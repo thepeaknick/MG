@@ -16,6 +16,11 @@ else:
     import tkinter
 from PIL import Image, ImageTk
 import tkinter.font as tkFont
+import os
+
+if os.environ.get('DISPLAY','') == '':
+    print('no display found. Using :0')
+    os.environ.__setitem__('DISPLAY', ':0')
 
 # canvas = None
 root = None
@@ -47,7 +52,7 @@ def get_quarter_team_fouls(players):
         first_quarter = first_quarter + x["fouls_first_quarter"] 
         second_quarter = second_quarter + x["fouls_second_quarter"] 
         third_quarter = third_quarter + x["fouls_third_quarter"]
-        fourth_quarter = + x["fouls_fourth_quarter"] + x["fouls_overtime"]
+        fourth_quarter = fourth_quarter + x["fouls_fourth_quarter"] + x["fouls_overtime"]
 
     return [first_quarter, second_quarter, third_quarter, fourth_quarter]
 
@@ -91,9 +96,14 @@ def showPIL(pilImage, root, q, child_conn):
 
     # Score board canvas
     quarter = "Q" + match_data["period"]
-    current_quarter = int(match_data["period"])
+    if (str(match_data["period"]) == "OT" ):
+        current_quarter = 5
+    else :
+        current_quarter = int(match_data["period"])
     home_team_fouls_current_quarter = home_team_quarter_fouls[current_quarter-1]
     away_team_fouls_current_quarter = away_team_quarter_fouls[current_quarter-1]
+    
+
     home_team_name = home_team["name"]
     away_team_name = away_team["name"]
 
@@ -116,7 +126,7 @@ def showPIL(pilImage, root, q, child_conn):
 
     # canvas = show_logos(w, h, canvas)
     # Show home logo
-    home_logo_image=Image.open('teamLogos/home_default.png')
+    home_logo_image=Image.open('/home/mgacademy/Development/MG/teamLogos/home_default.png')
     home_logo_image_ratio = home_logo_image.width/home_logo_image.height # 600/400 = 3/2 = 1.5
 
     width = int(ratios.home_image_w * w)
@@ -127,7 +137,7 @@ def showPIL(pilImage, root, q, child_conn):
     canvas.create_image(ratios.home_image_x * w, ratios.home_image_y * h, image=home_logo)
 
     # Show away logo
-    away_logo_image=Image.open('teamLogos/away_default.png')
+    away_logo_image=Image.open('/home/mgacademy/Development/MG/teamLogos/away_default.png')
     away_logo_image_ratio = away_logo_image.width/away_logo_image.height # 600/400 = 3/2 = 1.5
 
     width = int(ratios.away_image_w * w)
@@ -151,7 +161,7 @@ def showPIL(pilImage, root, q, child_conn):
 
     while True:
         # if should_update:
-            
+        
         if child_conn.poll(1):
             match_data = child_conn.recv()
             
@@ -172,11 +182,18 @@ def showPIL(pilImage, root, q, child_conn):
 
                 home_team_quarter_fouls = get_quarter_team_fouls(home_team["players"])
                 away_team_quarter_fouls = get_quarter_team_fouls(away_team["players"])
+                print("ASD" + str(away_team_quarter_fouls))
 
                 quarter = "Q" + match_data["period"]
-                current_quarter = int(match_data["period"])
-                home_team_fouls_current_quarter = home_team_quarter_fouls[current_quarter-1]
-                away_team_fouls_current_quarter = away_team_quarter_fouls[current_quarter-1]
+                current_quarter_index = current_quarter
+                if (str(match_data["period"]) == "OT" ):
+                    current_quarter = 5
+                    current_quarter_index = 4
+                else :
+                    current_quarter = int(match_data["period"])
+                
+                home_team_fouls_current_quarter = home_team_quarter_fouls[current_quarter_index-1]
+                away_team_fouls_current_quarter = away_team_quarter_fouls[current_quarter_index-1]
                 home_team_name = home_team["name"]
                 away_team_name = away_team["name"]
 
@@ -212,15 +229,15 @@ def show_player_data(w, h, canvas: tkinter.Canvas, num_home_players, num_away_pl
     
         fouls = player["fouls_first_quarter"] + player["fouls_second_quarter"] + player["fouls_third_quarter"] + player["fouls_fourth_quarter"] + player["fouls_overtime"]
         player_color = "gray" if fouls == 5 else "white"
-        canvas.create_text(ratios.home_first_player_fouls_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill="white",font=bebas_player_data, text=num_to_dots_fouls(fouls), anchor=tkinter.W, tag="hfouls"+str(x))
+        canvas.create_text(ratios.home_first_player_fouls_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill="white",font=bebas_player_data, text=num_to_dots_fouls(fouls), anchor=tkinter.W, tag="hfouls"+str(x))
 
-        canvas.create_text(ratios.home_first_player_name_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill=player_color,font=bebas_player_data, text=player["last_name"], anchor=tkinter.E, tag="hlast_name"+str(x))
-        canvas.create_text(ratios.home_first_player_number_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill=player_color,font=bebas_player_data, text=player["number"], anchor=tkinter.W, tag="hnumber"+str(x))
+        canvas.create_text(ratios.home_first_player_name_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill=player_color,font=bebas_player_data, text=player["last_name"], anchor=tkinter.E, tag="hlast_name"+str(x))
+        canvas.create_text(ratios.home_first_player_number_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill=player_color,font=bebas_player_data, text=player["number"], anchor=tkinter.W, tag="hnumber"+str(x))
 
         points = player["points_first_quarter"] + player["points_second_quarter"] + player["points_third_quarter"] + player["points_fourth_quarter"] + player["points_overtime"]
-        canvas.create_text(ratios.home_first_player_points_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill="white",font=bebas_player_data, text=points, anchor=tkinter.W, tag="hpoints"+str(x))
+        canvas.create_text(ratios.home_first_player_points_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill="white",font=bebas_player_data, text=points, anchor=tkinter.W, tag="hpoints"+str(x))
 
-    # Show home players
+    # Show away players
     for x in range(num_away_players):
         canvas.delete("afouls"+str(x))
         canvas.delete("alast_name"+str(x))
@@ -231,13 +248,13 @@ def show_player_data(w, h, canvas: tkinter.Canvas, num_home_players, num_away_pl
         
         fouls = player["fouls_first_quarter"] + player["fouls_second_quarter"] + player["fouls_third_quarter"] + player["fouls_fourth_quarter"] + player["fouls_overtime"]
         player_color = "gray" if fouls == 5 else "white"
-        canvas.create_text(ratios.away_first_player_fouls_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill="white",font=bebas_player_data, text=num_to_dots_fouls(fouls), anchor=tkinter.W, tag="afouls"+str(x))
+        canvas.create_text(ratios.away_first_player_fouls_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill="white",font=bebas_player_data, text=num_to_dots_fouls(fouls), anchor=tkinter.W, tag="afouls"+str(x))
 
-        canvas.create_text(ratios.away_first_player_name_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill=player_color,font=bebas_player_data, text=player["last_name"], anchor=tkinter.E, tag="alast_name"+str(x))
-        canvas.create_text(ratios.away_first_player_number_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill=player_color,font=bebas_player_data, text=player["number"], anchor=tkinter.W, tag="anumber"+str(x))
+        canvas.create_text(ratios.away_first_player_name_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill=player_color,font=bebas_player_data, text=player["last_name"], anchor=tkinter.E, tag="alast_name"+str(x))
+        canvas.create_text(ratios.away_first_player_number_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill=player_color,font=bebas_player_data, text=player["number"], anchor=tkinter.W, tag="anumber"+str(x))
         
         points = player["points_first_quarter"] + player["points_second_quarter"] + player["points_third_quarter"] + player["points_fourth_quarter"] + player["points_overtime"]
-        canvas.create_text(ratios.away_first_player_points_x * w, (ratios.first_player_name_y + 0.05*x) * h,fill="white",font=bebas_player_data, text=points, anchor=tkinter.W, tag="apoints"+str(x))
+        canvas.create_text(ratios.away_first_player_points_x * w, (ratios.first_player_name_y + 0.04*x) * h,fill="white",font=bebas_player_data, text=points, anchor=tkinter.W, tag="apoints"+str(x))
 
 
     return canvas
@@ -303,7 +320,7 @@ def show_team_data(screen_w: int, screen_h: int, canvas: tkinter.Canvas, bebas_s
 
 def show_logos(screen_w: int, screen_h: int, canvas: tkinter.Canvas):
     # Show home logo
-    home_logo_image=Image.open('teamLogos/home.png')
+    home_logo_image=Image.open('/home/mgacademy/Development/MG/teamLogos/home.png')
     home_logo_image_ratio = home_logo_image.width/home_logo_image.height # 600/400 = 3/2 = 1.5
 
     width = int(ratios.home_image_w * screen_w)
@@ -314,7 +331,7 @@ def show_logos(screen_w: int, screen_h: int, canvas: tkinter.Canvas):
     canvas.create_image(ratios.home_image_x * screen_w, ratios.home_image_y * screen_h, image=home_logo)
 
     # Show away logo
-    away_logo_image=Image.open('teamLogos/away_default.png')
+    away_logo_image=Image.open('/home/mgacademy/Development/MG/teamLogos/away_default.png')
     away_logo_image_ratio = away_logo_image.width/away_logo_image.height # 600/400 = 3/2 = 1.5
 
     width = int(ratios.away_image_w * screen_w)
@@ -338,10 +355,10 @@ app = Flask(__name__)
 
 @app.route('/teamlogo', methods = ['POST'])
 def addTeamLogo():
-    print("asd")
     file = request.files['file']
-    # Read the image via file.stream
-    file.save('teamLogos/' + secure_filename(file.filename))
+    if (file.filename.lower().endswith(('.png', '.jpg', '.jpeg'))):
+        # Read the image via file.stream
+        file.save('/home/mgacademy/Development/MG/teamLogos/' + secure_filename(file.filename))
 
     return jsonify({'msg': 'success'})
 
@@ -382,9 +399,8 @@ def parallelize_functions(*functions):
     for p in processes:
         p.join()
 
-    
 def scoreboard_function(q, child_conn: Pipe): 
-    pilImage = Image.open("scoreboard/background.jpg")
+    pilImage = Image.open("/home/mgacademy/Development/MG/scoreboard/background.jpg")
     # print(child_conn.recv())
     
     showPIL(pilImage, root, q, child_conn)
@@ -399,7 +415,7 @@ parent_conn, child_conn = Pipe()
 
 if __name__ == '__main__':
     q = Queue()
-    f = open('mock_data.json')
+    f = open('/home/mgacademy/Development/MG/mock_data.json')
     match_data = json.load(f)
     f.close()
 

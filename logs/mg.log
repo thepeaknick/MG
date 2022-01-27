@@ -1,0 +1,1150 @@
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.1.113:5000/ (Press CTRL+C to quit)
+192.168.1.118 - - [26/Jan/2022 19:51:56] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 19:51:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 19:51:56] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 19:51:56] "POST /updateclock HTTP/1.1" 200 -
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.1.113:5000/ (Press CTRL+C to quit)
+192.168.1.118 - - [26/Jan/2022 20:03:26] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:26] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:29] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:31] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:32] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:34] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:36] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:39] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:41] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:43] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:03:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:04:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:05:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:09] "POST /updateclock HTTP/1.1" 200 -
+{'current_time': 576007, 'is_running': True}
+{'current_time': 575950, 'is_running': False}
+{'current_time': 575008, 'is_running': True}
+{'current_time': 574002, 'is_running': True}
+{'is_running': False, 'current_time': 573984}
+{'is_running': True, 'current_time': 573010}
+{'is_running': True, 'current_time': 573001}
+{'current_time': 572005, 'is_running': True}
+{'current_time': 571010, 'is_running': True}
+{'current_time': 571001, 'is_running': True}
+{'current_time': 570004, 'is_running': True}
+{'is_running': True, 'current_time': 569005}
+{'is_running': True, 'current_time': 568006}
+{'current_time': 567008, 'is_running': True}
+{'current_time': 566005, 'is_running': True}
+{'is_running': True, 'current_time': 565008}
+{'is_running': True, 'current_time': 564010}
+{'is_running': True, 'current_time': 564002}
+{'current_time': 563005, 'is_running': True}
+{'is_running': True, 'current_time': 562003}
+{'current_time': 561002, 'is_running': True}
+{'current_time': 560009, 'is_running': True}
+{'current_time': 559002, 'is_running': True}
+{'current_time': 558009, 'is_running': True}
+{'current_time': 558000, 'is_running': True}
+{'current_time': 557008, 'is_running': True}
+{'current_time': 556006, 'is_running': True}
+{'is_running': True, 'current_time': 555003}
+{'current_time': 554002, 'is_running': True}
+{'is_running': True, 'current_time': 553005}
+{'current_time': 552005, 'is_running': True}
+{'is_running': True, 'current_time': 551007}
+{'current_time': 550001, 'is_running': True}
+{'is_running': True, 'current_time': 549006}
+{'current_time': 548001, 'is_running': True}
+{'current_time': 547007, 'is_running': True}
+{'is_running': True, 'current_time': 546001}
+{'current_time': 545009, 'is_running': True}
+{'current_time': 545000, 'is_running': True}
+{'current_time': 544008, 'is_running': True}
+{'is_running': True, 'current_time': 543007}
+{'current_time': 542007, 'is_running': True}
+{'current_time': 541004, 'is_running': True}
+{'current_time': 540009, 'is_running': True}
+{'current_time': 540000, 'is_running': True}
+{'current_time': 539007, 'is_running': True}
+{'is_running': True, 'current_time': 538009}
+{'is_running': True, 'current_time': 538000}
+{'current_time': 537006, 'is_running': True}
+{'current_time': 536009, 'is_running': True}
+{'current_time': 536000, 'is_running': True}
+{'current_time': 535002, 'is_running': True}
+{'is_running': True, 'current_time': 534003}
+{'current_time': 533004, 'is_running': True}
+{'current_time': 532009, 'is_running': True}
+{'current_time': 532000, 'is_running': True}
+{'current_time': 531007, 'is_running': True}
+{'current_time': 530006, 'is_running': True}
+{'current_time': 529005, 'is_running': True}
+{'is_running': True, 'current_time': 528010}
+{'is_running': True, 'current_time': 528000}
+{'current_time': 527005, 'is_running': True}
+{'is_running': True, 'current_time': 526009}
+{'current_time': 525004, 'is_running': True}
+{'is_running': True, 'current_time': 524001}
+{'current_time': 523005, 'is_running': True}
+{'is_running': True, 'current_time': 522009}
+{'current_time': 522000, 'is_running': True}
+{'current_time': 521007, 'is_running': True}
+{'is_running': True, 'current_time': 520001}
+{'current_time': 519007, 'is_running': True}
+{'is_running': True, 'current_time': 518003}
+{'current_time': 517008, 'is_running': True}
+{'current_time': 516006, 'is_running': True}
+{'is_running': True, 'current_time': 515008}
+{'current_time': 514004, 'is_running': True}
+{'current_time': 513010, 'is_running': True}
+{'current_time': 513001, 'is_running': True}
+{'current_time': 512004, 'is_running': True}
+{'is_running': True, 'current_time': 511010}
+{'is_running': True, 'current_time': 511001}
+{'current_time': 510009, 'is_running': True}
+{'current_time': 510000, 'is_running': True}
+{'is_running': True, 'current_time': 509002}
+{'current_time': 508006, 'is_running': True}
+{'current_time': 507005, 'is_running': True}
+{'current_time': 506003, 'is_running': True}
+{'is_running': True, 'current_time': 505009}
+{'current_time': 504006, 'is_running': True}
+{'is_running': True, 'current_time': 503006}
+{'current_time': 502009, 'is_running': True}
+{'current_time': 502000, 'is_running': True}
+{'is_running': True, 'current_time': 501008}
+{'current_time': 500004, 'is_running': True}
+{'is_running': True, 'current_time': 499004}
+{'current_time': 498004, 'is_running': True}
+{'current_time': 497002, 'is_running': True}
+{'current_time': 496009, 'is_running': True}
+{'current_time': 496000, 'is_running': True}
+{'is_running': True, 'current_time': 495005}
+{'current_time': 494007, 'is_running': True}
+{'current_time': 493009, 'is_running': True}
+{'is_running': True, 'current_time': 492006}
+{'current_time': 491006, 'is_running': True}
+{'current_time': 490002, 'is_running': True}
+{'current_time': 489009, 'is_running': True}
+{'current_time': 489000, 'is_running': True}
+{'current_time': 488007, 'is_running': True}
+{'is_running': True, 'current_time': 487008}
+{'current_time': 486009, 'is_running': True}
+{'current_time': 486000, 'is_running': True}
+{'current_time': 485010, 'is_running': True}
+{'current_time': 485001, 'is_running': True}
+{'current_time': 484009, 'is_running': True}
+{'current_time': 484000, 'is_running': True}
+{'is_running': True, 'current_time': 483004}
+{'current_time': 482009, 'is_running': True}
+{'current_time': 482000, 'is_running': True}
+{'current_time': 481003, 'is_running': True}
+{'current_time': 480008, 'is_running': True}
+{'current_time': 479008, 'is_running': True}
+{'is_running': True, 'current_time': 478008}
+{'current_time': 477004, 'is_running': True}
+{'current_time': 476006, 'is_running': True}
+{'current_time': 475004, 'is_running': True}
+{'current_time': 474007, 'is_running': True}
+{'is_running': True, 'current_time': 473010}
+{'is_running': True, 'current_time': 473001}
+{'current_time': 472005, 'is_running': True}
+{'is_running': True, 'current_time': 471006}
+{'current_time': 470008, 'is_running': True}
+{'current_time': 470000, 'is_running': True}
+{'is_running': True, 'current_time': 469008}
+{'current_time': 468002, 'is_running': True}
+{'current_time': 467004, 'is_running': True}
+{'is_running': True, 'current_time': 466002}
+{'current_time': 465003, 'is_running': True}
+{'is_running': True, 'current_time': 464008}
+{'current_time': 463002, 'is_running': True}
+{'current_time': 462008, 'is_running': True}
+{'current_time': 461003, 'is_running': True}
+{'current_time': 460009, 'is_running': True}
+{'current_time': 460000, 'is_running': True}
+{'current_time': 459007, 'is_running': True}
+{'current_time': 458003, 'is_running': True}
+{'current_time': 457008, 'is_running': True}
+{'current_time': 456004, 'is_running': True}
+{'current_time': 455001, 'is_running': True}
+{'current_time': 454005, 'is_running': True}
+{'current_time': 453006, 'is_running': True}
+{'current_time': 452010, 'is_running': True}
+{'current_time': 452001, 'is_running': True}
+{'current_time': 451003, 'is_running': True}
+{'is_running': True, 'current_time': 450010}
+{'is_running': True, 'current_time': 450001}
+{'current_time': 449008, 'is_running': True}
+{'current_time': 448006, 'is_running': True}
+{'is_running': True, 'current_time': 447005}
+{'current_time': 446004, 'is_running': True}
+{'is_running': True, 'current_time': 445007}
+{'current_time': 444002, 'is_running': True}
+{'current_time': 443009, 'is_running': True}
+{'current_time': 443000, 'is_running': True}
+{'current_time': 442002, 'is_running': True}
+{'is_running': True, 'current_time': 441005}
+{'current_time': 440008, 'is_running': True}
+{'current_time': 439006, 'is_running': True}
+{'current_time': 438002, 'is_running': True}
+{'current_time': 437007, 'is_running': True}
+{'is_running': True, 'current_time': 436008}
+{'current_time': 435005, 'is_running': True}
+{'current_time': 434007, 'is_running': True}
+{'is_running': True, 'current_time': 433008}
+{'current_time': 432007, 'is_running': True}
+{'is_running': True, 'current_time': 431006}
+{'current_time': 430006, 'is_running': True}
+{'current_time': 429005, 'is_running': True}
+{'is_running': True, 'current_time': 428002}
+{'current_time': 427003, 'is_running': True}
+{'current_time': 426008, 'is_running': True}
+{'is_running': True, 'current_time': 425006}
+{'current_time': 424003, 'is_running': True}
+192.168.1.118 - - [26/Jan/2022 20:06:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:06:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:07:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:07:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:07:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:07:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [26/Jan/2022 20:07:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:46] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:48] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:42:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:43:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:35] "POST /updateclock HTTP/1.1" 200 -
+{'is_running': True, 'current_time': 423009}
+{'is_running': True, 'current_time': 423000}
+{'current_time': 422006, 'is_running': True}
+{'current_time': 421009, 'is_running': True}
+{'current_time': 420004, 'is_running': True}
+{'current_time': 419004, 'is_running': True}
+{'is_running': True, 'current_time': 418003}
+{'current_time': 417006, 'is_running': True}
+{'current_time': 416009, 'is_running': True}
+{'current_time': 416000, 'is_running': True}
+{'current_time': 415009, 'is_running': True}
+{'current_time': 415000, 'is_running': True}
+{'current_time': 414002, 'is_running': True}
+{'current_time': 413008, 'is_running': True}
+{'current_time': 412003, 'is_running': True}
+{'current_time': 411002, 'is_running': True}
+{'is_running': True, 'current_time': 410009}
+{'current_time': 409001, 'is_running': True}
+{'is_running': True, 'current_time': 408009}
+{'is_running': True, 'current_time': 408000}
+{'current_time': 407004, 'is_running': True}
+{'is_running': True, 'current_time': 406010}
+{'is_running': True, 'current_time': 406001}
+{'current_time': 405009, 'is_running': True}
+{'current_time': 404006, 'is_running': True}
+{'is_running': True, 'current_time': 403003}
+{'current_time': 402010, 'is_running': True}
+{'current_time': 402000, 'is_running': True}
+{'is_running': True, 'current_time': 401009}
+{'is_running': True, 'current_time': 401000}
+{'is_running': True, 'current_time': 400008}
+{'current_time': 399006, 'is_running': True}
+{'current_time': 398005, 'is_running': True}
+{'current_time': 397006, 'is_running': True}
+{'current_time': 396002, 'is_running': True}
+{'is_running': True, 'current_time': 395005}
+{'current_time': 394005, 'is_running': True}
+{'is_running': True, 'current_time': 393006}
+{'current_time': 392002, 'is_running': True}
+{'current_time': 391009, 'is_running': True}
+{'current_time': 391001, 'is_running': True}
+{'current_time': 390008, 'is_running': True}
+{'current_time': 389008, 'is_running': True}
+{'current_time': 388005, 'is_running': True}
+{'current_time': 387005, 'is_running': True}
+{'current_time': 386008, 'is_running': True}
+{'current_time': 385005, 'is_running': True}
+{'is_running': True, 'current_time': 384010}
+{'is_running': True, 'current_time': 384001}
+{'current_time': 383009, 'is_running': True}
+{'current_time': 382006, 'is_running': True}
+{'current_time': 381003, 'is_running': True}
+{'current_time': 380008, 'is_running': True}
+{'current_time': 379007, 'is_running': True}
+{'is_running': True, 'current_time': 378002}
+{'current_time': 377002, 'is_running': True}
+{'current_time': 376005, 'is_running': True}
+{'current_time': 375010, 'is_running': True}
+{'is_running': True, 'current_time': 375000}
+{'current_time': 374009, 'is_running': True}
+{'current_time': 0, 'is_running': False}
+{'current_time': 599005, 'is_running': True}
+{'current_time': 598010, 'is_running': True}
+{'current_time': 598000, 'is_running': True}
+{'current_time': 597002, 'is_running': True}
+{'current_time': 596003, 'is_running': True}
+{'current_time': 595007, 'is_running': True}
+{'current_time': 594005, 'is_running': True}
+{'current_time': 593010, 'is_running': True}
+{'current_time': 593000, 'is_running': True}
+{'current_time': 592006, 'is_running': True}
+{'current_time': 591005, 'is_running': True}
+{'current_time': 590006, 'is_running': True}
+{'current_time': 589005, 'is_running': True}
+{'current_time': 588006, 'is_running': True}
+{'current_time': 587007, 'is_running': True}
+{'current_time': 586004, 'is_running': True}
+{'current_time': 585003, 'is_running': True}
+{'current_time': 584003, 'is_running': True}
+{'current_time': 583001, 'is_running': True}
+{'current_time': 582004, 'is_running': True}
+{'current_time': 581006, 'is_running': True}
+{'current_time': 580003, 'is_running': True}
+{'current_time': 579009, 'is_running': True}
+{'current_time': 579000, 'is_running': True}
+{'current_time': 578001, 'is_running': True}
+{'current_time': 577007, 'is_running': True}
+{'current_time': 576008, 'is_running': True}
+{'current_time': 575004, 'is_running': True}
+{'current_time': 574004, 'is_running': True}
+{'current_time': 573009, 'is_running': True}
+{'current_time': 573000, 'is_running': True}
+{'current_time': 572006, 'is_running': True}
+{'current_time': 571005, 'is_running': True}
+{'current_time': 570010, 'is_running': True}
+{'current_time': 570001, 'is_running': True}
+{'current_time': 569003, 'is_running': True}
+{'current_time': 568003, 'is_running': True}
+{'current_time': 567006, 'is_running': True}
+{'current_time': 566010, 'is_running': True}
+{'current_time': 566001, 'is_running': True}
+{'current_time': 565001, 'is_running': True}
+{'current_time': 564010, 'is_running': True}
+{'current_time': 564001, 'is_running': True}
+{'current_time': 563009, 'is_running': True}
+{'current_time': 563000, 'is_running': True}
+{'current_time': 562001, 'is_running': True}
+{'current_time': 561006, 'is_running': True}
+{'current_time': 560004, 'is_running': True}
+{'current_time': 559010, 'is_running': True}
+{'current_time': 559001, 'is_running': True}
+{'current_time': 558009, 'is_running': True}
+{'current_time': 558000, 'is_running': True}
+{'current_time': 557005, 'is_running': True}
+{'current_time': 556001, 'is_running': True}
+{'current_time': 555008, 'is_running': True}
+{'current_time': 554005, 'is_running': True}
+{'current_time': 553010, 'is_running': True}
+{'current_time': 553000, 'is_running': True}
+{'current_time': 552005, 'is_running': True}
+{'current_time': 551005, 'is_running': True}
+{'current_time': 550003, 'is_running': True}
+{'current_time': 549005, 'is_running': True}
+{'current_time': 548004, 'is_running': True}
+{'current_time': 547002, 'is_running': True}
+{'current_time': 546009, 'is_running': True}
+{'current_time': 546000, 'is_running': True}
+{'current_time': 545003, 'is_running': True}
+{'current_time': 544007, 'is_running': True}
+{'current_time': 543007, 'is_running': True}
+{'current_time': 542008, 'is_running': True}
+{'current_time': 541007, 'is_running': True}
+{'current_time': 540007, 'is_running': True}
+{'current_time': 539004, 'is_running': True}
+{'current_time': 538008, 'is_running': True}
+{'current_time': 537003, 'is_running': True}
+{'current_time': 536007, 'is_running': True}
+{'current_time': 535006, 'is_running': True}
+{'current_time': 534003, 'is_running': True}
+{'current_time': 533009, 'is_running': True}
+{'current_time': 533000, 'is_running': True}
+{'current_time': 532008, 'is_running': True}
+{'current_time': 531005, 'is_running': True}
+{'current_time': 530010, 'is_running': True}
+{'current_time': 530001, 'is_running': True}
+{'current_time': 529003, 'is_running': True}
+{'current_time': 528008, 'is_running': True}
+{'current_time': 527009, 'is_running': True}
+{'current_time': 526004, 'is_running': True}
+{'current_time': 525006, 'is_running': True}
+{'current_time': 524005, 'is_running': True}
+{'current_time': 523004, 'is_running': True}
+{'current_time': 522003, 'is_running': True}
+{'current_time': 521006, 'is_running': True}
+{'current_time': 520002, 'is_running': True}
+{'current_time': 519008, 'is_running': True}
+{'current_time': 518003, 'is_running': True}
+{'current_time': 517010, 'is_running': True}
+{'current_time': 517000, 'is_running': True}
+{'current_time': 516003, 'is_running': True}
+{'current_time': 515001, 'is_running': True}
+{'current_time': 514004, 'is_running': True}
+{'current_time': 513004, 'is_running': True}
+{'current_time': 512008, 'is_running': True}
+{'current_time': 511003, 'is_running': True}
+{'current_time': 510009, 'is_running': True}
+{'current_time': 510000, 'is_running': True}
+{'current_time': 509001, 'is_running': True}
+{'current_time': 508006, 'is_running': True}
+{'current_time': 507003, 'is_running': True}
+{'current_time': 506005, 'is_running': True}
+{'current_time': 505002, 'is_running': True}
+{'current_time': 504010, 'is_running': True}
+{'current_time': 504000, 'is_running': True}
+{'current_time': 503010, 'is_running': True}
+{'current_time': 503001, 'is_running': True}
+{'current_time': 502010, 'is_running': True}
+{'current_time': 502000, 'is_running': True}
+{'current_time': 501003, 'is_running': True}
+{'current_time': 500002, 'is_running': True}
+{'current_time': 499009, 'is_running': True}
+{'current_time': 499000, 'is_running': True}
+192.168.1.118 - - [27/Jan/2022 09:44:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:44:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:44] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:45:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:03] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:22] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:39] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:40] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:41] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:42] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:43] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:45] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:46] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:47] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:48] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:49] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:50] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:51] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:52] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:53] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:54] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:55] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:56] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:57] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:58] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:46:59] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:00] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:01] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:02] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:04] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:05] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:06] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:07] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:08] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:09] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:10] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:11] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:12] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:13] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:14] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:15] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:16] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:17] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:17] "POST /updateclock HTTP/1.1" 200 -
+{'current_time': 498005, 'is_running': True}
+{'current_time': 497002, 'is_running': True}
+{'current_time': 496007, 'is_running': True}
+{'current_time': 495010, 'is_running': True}
+{'current_time': 495001, 'is_running': True}
+{'current_time': 494009, 'is_running': True}
+{'current_time': 493004, 'is_running': True}
+{'current_time': 492003, 'is_running': True}
+{'current_time': 491008, 'is_running': True}
+{'current_time': 490003, 'is_running': True}
+{'current_time': 489009, 'is_running': True}
+{'current_time': 489000, 'is_running': True}
+{'current_time': 488006, 'is_running': True}
+{'current_time': 487005, 'is_running': True}
+{'current_time': 486005, 'is_running': True}
+{'current_time': 485004, 'is_running': True}
+{'current_time': 484009, 'is_running': True}
+{'current_time': 483007, 'is_running': True}
+{'current_time': 482004, 'is_running': True}
+{'current_time': 481010, 'is_running': True}
+{'current_time': 481001, 'is_running': True}
+{'current_time': 480002, 'is_running': True}
+{'current_time': 479010, 'is_running': True}
+{'current_time': 479001, 'is_running': True}
+{'current_time': 478008, 'is_running': True}
+{'current_time': 477001, 'is_running': True}
+{'current_time': 476007, 'is_running': True}
+{'current_time': 475010, 'is_running': True}
+{'current_time': 475001, 'is_running': True}
+{'current_time': 474007, 'is_running': True}
+{'current_time': 473005, 'is_running': True}
+{'current_time': 472006, 'is_running': True}
+{'current_time': 471010, 'is_running': True}
+{'current_time': 471000, 'is_running': True}
+{'current_time': 470004, 'is_running': True}
+{'current_time': 469008, 'is_running': True}
+{'current_time': 468005, 'is_running': True}
+{'current_time': 467010, 'is_running': True}
+{'current_time': 467001, 'is_running': True}
+{'current_time': 466008, 'is_running': True}
+{'current_time': 465008, 'is_running': True}
+{'current_time': 464001, 'is_running': True}
+{'current_time': 463008, 'is_running': True}
+{'current_time': 462004, 'is_running': True}
+{'current_time': 461007, 'is_running': True}
+{'current_time': 460006, 'is_running': True}
+{'current_time': 459005, 'is_running': True}
+{'current_time': 458005, 'is_running': True}
+{'current_time': 457010, 'is_running': True}
+{'current_time': 457001, 'is_running': True}
+{'current_time': 456002, 'is_running': True}
+{'current_time': 455002, 'is_running': True}
+{'current_time': 454005, 'is_running': True}
+{'current_time': 453003, 'is_running': True}
+{'current_time': 452007, 'is_running': True}
+{'current_time': 451009, 'is_running': True}
+{'current_time': 450006, 'is_running': True}
+{'current_time': 449009, 'is_running': True}
+{'current_time': 449000, 'is_running': True}
+{'current_time': 448009, 'is_running': True}
+{'current_time': 448000, 'is_running': True}
+{'current_time': 447007, 'is_running': True}
+{'current_time': 446004, 'is_running': True}
+{'current_time': 445010, 'is_running': True}
+{'current_time': 445001, 'is_running': True}
+{'current_time': 444007, 'is_running': True}
+{'current_time': 443006, 'is_running': True}
+{'current_time': 442004, 'is_running': True}
+{'current_time': 441010, 'is_running': True}
+{'current_time': 441001, 'is_running': True}
+{'current_time': 440008, 'is_running': True}
+{'current_time': 439008, 'is_running': True}
+{'current_time': 438010, 'is_running': True}
+{'is_running': True, 'current_time': 438001}
+{'current_time': 437005, 'is_running': True}
+{'current_time': 436002, 'is_running': True}
+{'current_time': 435009, 'is_running': True}
+{'current_time': 435000, 'is_running': True}
+{'current_time': 434001, 'is_running': True}
+{'current_time': 433003, 'is_running': True}
+{'current_time': 432007, 'is_running': True}
+{'current_time': 431008, 'is_running': True}
+{'current_time': 430004, 'is_running': True}
+{'current_time': 429009, 'is_running': True}
+{'current_time': 428006, 'is_running': True}
+{'current_time': 427001, 'is_running': True}
+{'current_time': 426008, 'is_running': True}
+{'current_time': 425002, 'is_running': True}
+{'current_time': 424008, 'is_running': True}
+{'current_time': 423002, 'is_running': True}
+{'current_time': 422007, 'is_running': True}
+{'current_time': 421009, 'is_running': True}
+{'current_time': 421000, 'is_running': True}
+{'current_time': 420010, 'is_running': True}
+{'current_time': 420001, 'is_running': True}
+{'current_time': 419010, 'is_running': True}
+{'current_time': 419000, 'is_running': True}
+{'current_time': 418003, 'is_running': True}
+{'current_time': 417002, 'is_running': True}
+{'current_time': 416004, 'is_running': True}
+{'current_time': 415007, 'is_running': True}
+{'current_time': 414010, 'is_running': True}
+{'current_time': 414001, 'is_running': True}
+{'current_time': 413009, 'is_running': True}
+{'current_time': 413000, 'is_running': True}
+{'current_time': 412002, 'is_running': True}
+{'current_time': 411005, 'is_running': True}
+{'current_time': 410002, 'is_running': True}
+{'current_time': 409006, 'is_running': True}
+{'current_time': 408009, 'is_running': True}
+{'current_time': 407009, 'is_running': True}
+{'current_time': 406005, 'is_running': True}
+{'current_time': 405004, 'is_running': True}
+{'current_time': 404005, 'is_running': True}
+{'current_time': 403008, 'is_running': True}
+{'current_time': 402010, 'is_running': True}
+{'current_time': 402000, 'is_running': True}
+{'current_time': 401010, 'is_running': True}
+{'current_time': 401001, 'is_running': True}
+{'current_time': 400009, 'is_running': True}
+{'current_time': 400000, 'is_running': True}
+{'current_time': 399010, 'is_running': True}
+{'current_time': 399000, 'is_running': True}
+{'current_time': 398008, 'is_running': True}
+{'current_time': 397004, 'is_running': True}
+{'current_time': 396005, 'is_running': True}
+{'current_time': 395003, 'is_running': True}
+{'current_time': 394008, 'is_running': True}
+{'current_time': 393007, 'is_running': True}
+{'current_time': 392002, 'is_running': True}
+{'current_time': 391008, 'is_running': True}
+{'current_time': 390004, 'is_running': True}
+{'current_time': 389008, 'is_running': True}
+{'current_time': 388008, 'is_running': True}
+{'current_time': 387005, 'is_running': True}
+{'current_time': 386003, 'is_running': True}
+{'current_time': 385002, 'is_running': True}
+{'current_time': 384007, 'is_running': True}
+{'current_time': 383006, 'is_running': True}
+{'current_time': 382003, 'is_running': True}
+{'current_time': 381010, 'is_running': True}
+{'current_time': 381000, 'is_running': True}
+{'current_time': 380006, 'is_running': True}
+{'current_time': 379005, 'is_running': True}
+{'current_time': 378006, 'is_running': True}
+{'current_time': 377005, 'is_running': True}
+{'current_time': 376001, 'is_running': True}
+{'current_time': 375002, 'is_running': True}
+{'current_time': 374010, 'is_running': True}
+{'current_time': 374000, 'is_running': True}
+{'current_time': 373002, 'is_running': True}
+{'current_time': 372003, 'is_running': True}
+{'current_time': 371004, 'is_running': True}
+{'current_time': 370008, 'is_running': True}
+{'current_time': 369004, 'is_running': True}
+{'current_time': 368003, 'is_running': True}
+{'current_time': 367002, 'is_running': True}
+{'current_time': 366004, 'is_running': True}
+{'current_time': 365009, 'is_running': True}
+{'current_time': 364006, 'is_running': True}
+{'current_time': 363006, 'is_running': True}
+{'current_time': 362002, 'is_running': True}
+{'current_time': 361005, 'is_running': True}
+{'current_time': 360003, 'is_running': True}
+{'current_time': 359010, 'is_running': True}
+{'current_time': 359001, 'is_running': True}
+{'current_time': 358001, 'is_running': True}
+{'current_time': 357002, 'is_running': True}
+{'current_time': 356007, 'is_running': True}
+{'current_time': 355010, 'is_running': True}
+{'current_time': 355001, 'is_running': True}
+{'current_time': 354005, 'is_running': True}
+{'current_time': 353007, 'is_running': True}
+{'current_time': 352006, 'is_running': True}
+{'current_time': 351006, 'is_running': True}
+{'current_time': 350008, 'is_running': True}
+{'current_time': 349002, 'is_running': True}
+{'current_time': 348002, 'is_running': True}
+{'current_time': 347007, 'is_running': True}
+{'current_time': 346003, 'is_running': True}
+{'current_time': 345009, 'is_running': True}
+{'current_time': 345000, 'is_running': True}
+192.168.1.118 - - [27/Jan/2022 09:47:18] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:19] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:20] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:21] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:23] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:24] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:25] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:26] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:27] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:28] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:29] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:30] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:31] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:32] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:33] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:34] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:35] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:36] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:37] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:38] "POST /updateclock HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:39] "POST /updatematchdata HTTP/1.1" 200 -
+192.168.1.118 - - [27/Jan/2022 09:47:39] "POST /updateclock HTTP/1.1" 200 -
