@@ -94,6 +94,8 @@ def showPIL(pilImage, root, q, child_conn):
     home_team_quarter_fouls = get_quarter_team_fouls(home_team["players"])
     away_team_quarter_fouls = get_quarter_team_fouls(away_team["players"])
 
+    home_team_timeouts = 0
+    away_team_timeouts = 0
     # Score board canvas
     quarter = "Q" + match_data["period"]
     if (str(match_data["period"]) == "OT" ):
@@ -120,8 +122,10 @@ def showPIL(pilImage, root, q, child_conn):
     font_size_score = int(ratios.score_font_size * h)
     font_size_score_quarter = int(ratios.quarter_font_size * h)
     font_size_player_data = int(ratios.player_name_font_size * h)
+    font_size_team_foul = int(ratios.team_foul_font_size * h)
     bebas_score = tkFont.Font(family='Bebas Neue',size=font_size_score, weight='bold')
     bebas_quarter = tkFont.Font(family='Bebas Neue',size=font_size_score_quarter, weight='bold')
+    bebas_team_foul = tkFont.Font(family='Bebas Neue',size=font_size_team_foul, weight='bold')
     bebas_player_data = tkFont.Font(family='Bebas Neue',size=font_size_player_data, weight='bold')
 
     # canvas = show_logos(w, h, canvas)
@@ -148,7 +152,7 @@ def showPIL(pilImage, root, q, child_conn):
 
     # Show data
 
-    canvas = show_team_data(w, h, canvas, bebas_score, home_res, away_res, bebas_quarter, quarter, home_team_name, away_team_name, home_team_fouls_current_quarter, away_team_fouls_current_quarter)
+    canvas = show_team_data(w, h, canvas, bebas_score, home_res, away_res, bebas_quarter, bebas_team_foul, quarter, home_team_name, away_team_name, home_team_fouls_current_quarter, away_team_fouls_current_quarter, home_team_timeouts, away_team_timeouts)
     canvas = show_quarter_data(w, h, canvas, current_quarter, bebas_quarter, home_first_quarter_score, away_first_quarter_score, home_second_quarter_score, away_second_quarter_score, home_third_quarter_score, away_third_quarter_score, home_fourth_quarter_score, away_fourth_quarter_score)
 
     # Show quarter time
@@ -182,8 +186,10 @@ def showPIL(pilImage, root, q, child_conn):
 
                 home_team_quarter_fouls = get_quarter_team_fouls(home_team["players"])
                 away_team_quarter_fouls = get_quarter_team_fouls(away_team["players"])
-                print("ASD" + str(away_team_quarter_fouls))
 
+                home_team_timeouts = home_team["timeouts"]
+                away_team_timeouts = away_team["timeouts"]
+            
                 quarter = "Q" + match_data["period"]
                 current_quarter_index = current_quarter
                 if (str(match_data["period"]) == "OT" ):
@@ -202,7 +208,7 @@ def showPIL(pilImage, root, q, child_conn):
                 home_players = home_team["players"]
                 away_players = away_team["players"]
 
-                canvas = show_team_data(w, h, canvas, bebas_score, home_res, away_res, bebas_quarter, quarter, home_team_name, away_team_name, home_team_fouls_current_quarter, away_team_fouls_current_quarter)
+                canvas = show_team_data(w, h, canvas, bebas_score, home_res, away_res, bebas_quarter, bebas_team_foul, quarter, home_team_name, away_team_name, home_team_fouls_current_quarter, away_team_fouls_current_quarter, home_team_timeouts, away_team_timeouts)
                 canvas = show_quarter_data(w, h, canvas, current_quarter, bebas_quarter, home_first_quarter_score, away_first_quarter_score, home_second_quarter_score, away_second_quarter_score, home_third_quarter_score, away_third_quarter_score, home_fourth_quarter_score, away_fourth_quarter_score)
                 canvas = show_player_data(w, h, canvas, num_home_players, num_away_players, home_players, away_players, bebas_player_data)
 
@@ -290,7 +296,7 @@ def show_quarter_data(screen_w: int, screen_h: int, canvas: tkinter.Canvas, curr
 
     return canvas
 
-def show_team_data(screen_w: int, screen_h: int, canvas: tkinter.Canvas, bebas_score, home_res, away_res, bebas_quarter, quarter, home_team_name, away_team_name, home_team_fouls_current_quarter, away_team_fouls_current_quarter):
+def show_team_data(screen_w: int, screen_h: int, canvas: tkinter.Canvas, bebas_score, home_res, away_res, bebas_quarter, bebas_team_foul, quarter, home_team_name, away_team_name, home_team_fouls_current_quarter, away_team_fouls_current_quarter, home_team_timeouts, away_team_timeouts):
 
     # Show scores
     canvas.delete("home_res")
@@ -311,10 +317,18 @@ def show_team_data(screen_w: int, screen_h: int, canvas: tkinter.Canvas, bebas_s
     # Show team fouls
     canvas.delete("home_team_fouls")
     canvas.delete("away_team_fouls")
+
     home_team_foul_color = "red" if home_team_fouls_current_quarter > 4 else "white"
     away_team_foul_color = "red" if away_team_fouls_current_quarter > 4 else "white"
-    canvas.create_text(ratios.home_res_position_x * screen_w, ratios.team_foul_position_y * screen_h,fill=home_team_foul_color,font=bebas_quarter, text=home_team_fouls_current_quarter, anchor=tkinter.W, tag="home_team_fouls")
-    canvas.create_text(ratios.away_res_position_x * screen_w, ratios.team_foul_position_y * screen_h,fill=away_team_foul_color,font=bebas_quarter, text=away_team_fouls_current_quarter, anchor=tkinter.E, tag="away_team_fouls")
+    home_team_fouls_current_quarter = 5 if home_team_fouls_current_quarter > 4 else home_team_fouls_current_quarter
+    away_team_fouls_current_quarter = 5 if away_team_fouls_current_quarter > 4 else away_team_fouls_current_quarter
+    canvas.create_text(ratios.home_res_position_x * screen_w, ratios.team_foul_position_y * screen_h,fill=home_team_foul_color,font=bebas_team_foul, text="F: " + str(home_team_fouls_current_quarter), anchor=tkinter.W, tag="home_team_fouls")
+    canvas.create_text(ratios.away_res_position_x * screen_w, ratios.team_foul_position_y * screen_h,fill=away_team_foul_color,font=bebas_team_foul, text="F: " + str(away_team_fouls_current_quarter), anchor=tkinter.E, tag="away_team_fouls")
+    
+    canvas.delete("home_team_timeouts")
+    canvas.delete("away_team_timeouts")
+    canvas.create_text(ratios.home_res_position_x * screen_w, ratios.team_foul_position_y * screen_h + 50 ,fill="gray",font=bebas_team_foul, text="T: " + str(home_team_timeouts), anchor=tkinter.W, tag="home_team_timeouts")
+    canvas.create_text(ratios.away_res_position_x * screen_w, ratios.team_foul_position_y * screen_h + 50 ,fill="gray",font=bebas_team_foul, text="T: " + str(away_team_timeouts), anchor=tkinter.E, tag="away_team_timeouts")
 
     return canvas
 
@@ -374,7 +388,7 @@ def startmatch():
 def updatematchdata():
     # print(request.json)
     match_data = request.get_json()
-    # print(match_data)
+    print(match_data)
     parent_conn.send(match_data)
     
     # parallelize_functions(scoreboard_function)

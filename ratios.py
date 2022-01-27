@@ -15,6 +15,7 @@ quarter_position_y = 0.63 # 0.13
 score_font_size = 0.074
 quarter_font_size = 0.045
 player_name_font_size = 0.035
+team_foul_font_size = 0.035
 
 team_name_position_y = 0.19
 team_foul_position_y = 0.261
