@@ -1,10 +1,11 @@
 {
     "status": "ready",
-    "period": "1",
+    "period": "2",
     "home_team": {
         "id": "6192d4d72c516c73e34637c8",
-        "name": "Domaci",
+        "name": "Home",
         "status": "home",
+        "timeouts": "1",
         "players": [
             {
                 "id": "6192d4d702849f69dc3dee65",
@@ -12,7 +13,7 @@
                 "last_name": "Abbott",
                 "number": 1,
                 "position": "centar",
-                "fouls_first_quarter": 0,
+                "fouls_first_quarter": 1,
                 "fouls_second_quarter": 0,
                 "fouls_third_quarter": 0,
                 "fouls_fourth_quarter": 0,
@@ -154,7 +155,7 @@
                 "fouls_fourth_quarter": 0,
                 "fouls_overtime": 0,
                 "points_first_quarter": 0,
-                "points_second_quarter": 0,
+                "points_second_quarter": 3,
                 "points_third_quarter": 0,
                 "points_fourth_quarter": 0,
                 "points_overtime": 0
@@ -199,8 +200,8 @@
                 "last_name": "Peter",
                 "number": 12,
                 "position": "centar",
-                "fouls_first_quarter": 0,
-                "fouls_second_quarter": 0,
+                "fouls_first_quarter": 1,
+                "fouls_second_quarter": 2,
                 "fouls_third_quarter": 0,
                 "fouls_fourth_quarter": 0,
                 "fouls_overtime": 0,
@@ -214,7 +215,7 @@
     },
     "away_team": {
         "id": "6192d4d75ce426e9cee67e9d",
-        "name": "Gosti",
+        "name": "Away",
         "status": "away",
         "players": [
             {
@@ -224,13 +225,13 @@
                 "number": 1,
                 "position": "centar",
                 "fouls_first_quarter": 0,
-                "fouls_second_quarter": 0,
-                "fouls_third_quarter": 0,
+                "fouls_second_quarter": 2,
+                "fouls_third_quarter": 4,
                 "fouls_fourth_quarter": 0,
                 "fouls_overtime": 0,
                 "points_first_quarter": 0,
                 "points_second_quarter": 0,
-                "points_third_quarter": 0,
+                "points_third_quarter": 4,
                 "points_fourth_quarter": 0,
                 "points_overtime": 0
             },
@@ -240,7 +241,7 @@
                 "last_name": "Rossi",
                 "number": 2,
                 "position": "centar",
-                "fouls_first_quarter": 0,
+                "fouls_first_quarter": 1,
                 "fouls_second_quarter": 0,
                 "fouls_third_quarter": 0,
                 "fouls_fourth_quarter": 0,
