@@ -540,52 +540,99 @@ def updateclock():
 
 current_song_global = ""
 media_global = None
+media_length = 0
+current_position = 0
 
 @app.route('/toggleaudio', methods = ['POST'])
+@app.route('/seekvideo', methods = ['POST'])
 def playaudio():
     global current_song_global
     global media_global
+    global media_length
+    global current_position
 
     match_data = request.get_json()
     print(match_data)
-    
-    if (current_song_global == "" or match_data['video_id'] != current_song_global):
-        # https://www.youtube.com/watch?v=vG2PNdI8axo
-        # url = current_song_global
+    if (request.path == "/seekvideo"):
+        match_data = request.get_json()
+        # print("match data", match_data)
+        
+        media_length = float(media_global.get_length()/1000)
+        print("length", media_length)
 
-        if (match_data["video_id"] != ""):
-            try:
-                media_global.pause()     
-                print("PLAYED DISPOSED")
-            except:
-                print("Media global exception: ",  sys.exc_info()[0])
-            try:
-                current_song_global = match_data['video_id']
-                url = "https://www.youtube.com/watch?v=" + match_data['video_id']
-                video = pafy.new(url)
-                best = video.getbestaudio()
-                media_global = vlc.MediaPlayer(best.url)
-                media_global.play()
-                print("PLAYED NEW")
-            except ValueError:
-                print("Los video URL!")
-            except:
-                print("General exception: ",  sys.exc_info()[0])
-    else:
-        try:
-            if (match_data['is_playing'] == "false"):
-                media_global.play()
-                print("PLAYED OLD")
-            else:
-                media_global.pause()
-                print("PAUSED OLD")
-        except:
-            print("General (play/pause) exception: ",  sys.exc_info()[0])
+        if (media_length == 0):
+            return jsonify({'msg': 'success'})
 
-        # parent_conn.send(match_data)
+        division = float(match_data['seconds'])/media_length
+        print("division", format(division, 'f'))
+        
+        print("current position", current_position)
+        print("now", float(match_data['seconds']))
+        now = float(match_data['seconds'])
+
+        print("SSS", now - current_position)
+
+        if (abs(now - current_position) > float(5)):
+            print("ASD")
+            media_global.set_position(division)
+
+        current_position = float(match_data['seconds'])
+
+
+    else :
+        if (current_song_global == "" or match_data['video_id'] != current_song_global):
+            # https://www.youtube.com/watch?v=vG2PNdI8axo
+            # url = current_song_global
+
+            if (match_data["video_id"] != ""):
+                try:
+                    # if (match_data['video_id'] != current_song_global): # if new song
+
+                    if (match_data['is_playing'] != False and media_global.is_playing()):
+                        media_global.pause()        
+                    print("PLAYED DISPOSED")
+                    print("DATA", match_data)
+                except:
+                    print("Media global exception: ",  sys.exc_info()[0])
+                try:
+                    current_song_global = match_data['video_id']
+                    url = "https://www.youtube.com/watch?v=" + match_data['video_id']
+                    video = pafy.new(url)
+                    best = video.getbestaudio()
+                    media_global = vlc.MediaPlayer(best.url)
+                    media_global.play()
+                    media_length = media_global.get_length()
+                    print("PLAYED NEW", media_length)
+                except ValueError:
+                    print("Los video URL!")
+                except:
+                    print("General exception: ",  sys.exc_info()[0])
+        else:
+            try:
+                if (match_data['is_playing'] == False):
+                    media_global.pause()
+                    print("PAUSED OLD")
+                else:
+                    media_global.play()
+                    print("PLAYED OLD")
+            except:
+                print("General (play/pause) exception: ",  sys.exc_info()[0])
+
+            # parent_conn.send(match_data)
     
     # parallelize_functions(scoreboard_function)
     return jsonify({'msg': 'success'})
+
+# @app.route('/seekvideo', methods = ['POST'])
+# def seekaudio():
+#     global media_length
+#     global media_global
+
+#     match_data = request.get_json()
+#     print(match_data)
+#     media_length = media_global.get_length()
+
+#     return jsonify({'msg': 'success'})
 
 # Helper function to easly  parallelize multiple functions
 def parallelize_functions(*functions):
